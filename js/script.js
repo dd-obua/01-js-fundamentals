@@ -70,8 +70,8 @@ console.log(firstName + " " + lastName);
 
 console.log("------------------------------");
 
-// Operators
-// Math and assignment operators
+
+// Math and assignment comparision operators
 let x = 5 + 10;
 x += 10;
 console.log(x);
