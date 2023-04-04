@@ -54,3 +54,38 @@ console.log(middleName);
 // It is a terrible idea (using undeclared variables)
 
 console.log("------------------------------");
+
+// JavaScript operators
+const now = 2023;
+const ageDan = now - birthYear;
+console.log("Dan's age:", ageDan);
+
+const ageJoe = now - 1990;
+console.log("Joe's age:", ageJoe);
+console.log("Double:", ageJoe * 2);
+console.log("Halve:", ageJoe / 2);
+
+let lastName = "Obua";
+console.log(firstName + " " + lastName);
+
+console.log("------------------------------");
+
+// Operators
+// Math and assignment operators
+let x = 5 + 10;
+x += 10;
+console.log(x);
+
+x *= 10;
+console.log(x);
+
+x++;
+console.log(x);
+
+x--;
+console.log(x);
+
+// Comparision operators
+console.log("Is Dan older than Joe:", ageDan > ageJoe);
+console.log(ageDan >= 18);
+const isAdult = ageJoe >= 18;
