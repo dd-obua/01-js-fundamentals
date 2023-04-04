@@ -70,15 +70,6 @@ console.log(firstName + " " + lastName);
 
 console.log("------------------------------");
 
-
-// Math and assignment comparision operators
-let x = 5 + 10;
-x += 10;
-console.log(x);
-
-x *= 10;
-console.log(x);
-
 x++;
 console.log(x);
 
