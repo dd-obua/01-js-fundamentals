@@ -70,6 +70,7 @@ console.log(firstName + " " + lastName);
 
 console.log("------------------------------");
 
+let x = 5;
 x++;
 console.log(x);
 
