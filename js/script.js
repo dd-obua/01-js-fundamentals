@@ -13,3 +13,44 @@ let firstName = "Denis"; // firstName is a variable
 console.log(firstName);
 
 // There are variable naming conventions
+
+// Data types
+
+let jsIsFun = true;
+console.log("jsIsFun:", jsIsFun);
+
+console.log("Type of jsIsFun:", typeof jsIsFun);
+console.log("Type of 23:", typeof 23);
+console.log("Type of Denis:", typeof "Denis");
+
+jsIsFun = "Yes";
+console.log("jsIsFun:", jsIsFun);
+console.log("Type of jsIsFun:", typeof "jsIsFun");
+
+let year;
+console.log("Year:", year);
+console.log("Type of year:", typeof year);
+
+year = 1991;
+console.log("Year:", year);
+console.log("Type of year:", typeof year);
+
+let age = 30;
+age = 31; // age has been reassigned a value (i.e. mutated)
+
+console.log("------------------------------");
+
+// Bug in JavaScript
+let nullBug = console.log("Type of null: ", typeof null);
+
+console.log("------------------------------");
+// const and var (variable declerations)
+const birthYear = 1993;
+console.log(birthYear);
+
+// Using a variable without declaration (it JavaScript)
+middleName = "Dan";
+console.log(middleName);
+// It is a terrible idea (using undeclared variables)
+
+console.log("------------------------------");
